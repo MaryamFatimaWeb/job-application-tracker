@@ -3,17 +3,23 @@ const cors = require("cors");
 require("dotenv").config();
 
 const connectDB = require("./config/db");
+const authRoutes = require("./routes/authRoutes");
+const jobRoutes = require("./routes/jobRoutes");
 
 const app = express();
 
-// Database Connect
+// Database connect
 connectDB();
 
-// Middleware
+// ✅ Middleware (ORDER FIXED)
 app.use(cors());
 app.use(express.json());
 
-// Test Route
+// Routes
+app.use("/api/auth", authRoutes);
+app.use("/api/jobs", jobRoutes);
+
+// Test route
 app.get("/", (req, res) => {
   res.send("Job Application Tracker API is Running 🚀");
 });
