@@ -26,7 +26,7 @@ A modern Full Stack Job Application Tracker built with **Next.js**, **Node.js**,
 - React.js
 - CSS
 - Axios
-- React Hot Toast
+- React 
 
 ### Backend
 - Node.js
