@@ -25,27 +25,6 @@ const jobSchema = new mongoose.Schema(
       enum: ["Applied", "Interview", "Rejected", "Accepted"],
       default: "Applied",
     },
-
-    jobType: {
-      type: String,
-      enum: ["Full-Time", "Part-Time", "Internship", "Remote"],
-      default: "Full-Time",
-    },
-
-    location: {
-      type: String,
-      required: true,
-    },
-
-    appliedDate: {
-      type: Date,
-      default: Date.now,
-    },
-
-    notes: {
-      type: String,
-      default: "",
-    },
   },
   {
     timestamps: true,

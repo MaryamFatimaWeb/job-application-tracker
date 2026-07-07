@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import "@/styles/auth.css";
 
 export default function AuthForm({
   title,
@@ -27,16 +28,9 @@ export default function AuthForm({
   };
 
   return (
-    <div
-      style={{
-        width: "400px",
-        margin: "50px auto",
-        padding: "25px",
-        border: "1px solid #ddd",
-        borderRadius: "10px",
-      }}
-    >
-      <h2>{title}</h2>
+   <div className="auth-container">
+  
+      <h2 className="auth-title">{title}</h2>
 
       <form onSubmit={handleSubmit}>
         {isRegister && (
@@ -79,7 +73,9 @@ export default function AuthForm({
         <br />
         <br />
 
-        <button type="submit">{buttonText}</button>
+       <button className="auth-btn" type="submit">
+  {buttonText}
+</button>
       </form>
     </div>
   );
