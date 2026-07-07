@@ -103,24 +103,14 @@ JWT_SECRET=your_secret_key
 
 ### Login Page
 
-_Add Screenshot Here_
+<img width="690" height="375" alt="Login page" src="https://github.com/user-attachments/assets/9a42b697-ddd7-416d-b36c-bef8b8fe3a2d" />
+
 
 ### Dashboard
 
-_Add Screenshot Here_
+<img width="959" height="446" alt="dashboard" src="https://github.com/user-attachments/assets/7f202f4c-b159-46b2-98a9-4860d60bb257" />
+<img width="951" height="301" alt="Dashboard1" src="https://github.com/user-attachments/assets/ed980c24-729a-4796-9a92-caa1ebf7bd0c" />
 
----
-
-## 🔮 Future Improvements
-
-- Email Notifications
-- Dark Mode
-- Job Analytics Charts
-- Pagination
-- Upload Resume
-- Company Website Link
-- Notes & Interview Schedule
-- Responsive Mobile Design Improvements
 
 ---
 
