@@ -1,4 +1,4 @@
-# 💼 Job Application Tracker
+# 💼 Job Application Tracker (Jan 2026)
 
 A modern Full Stack Job Application Tracker built with **Next.js**, **Node.js**, **Express.js**, and **MongoDB**. It helps users manage and track their job applications with secure authentication and an easy-to-use dashboard.
 
